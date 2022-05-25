@@ -12,7 +12,7 @@
   background-image: linear-gradient(
     to bottom right,
     rgb(78, 81, 255),
-    rgb(118, 178, 228)
+    rgb(74, 137, 189)
   );
 }
 
@@ -22,9 +22,9 @@
   top: 50%;
   background-color: rgb(255, 255, 255);
   width: 80vw;
-  height: 90vh;
+  height: 89vh;
   transform: translateX(-50%) translateY(-50%);
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
+  box-shadow: 10px 5px 10px 5px rgba(14, 9, 9, 0.76);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,7 @@
 
 .aboutSectionContainer > h1 {
   font: 400 3vmax "Roboto";
-  color: rgb(255, 212, 71);
+  color: tomato;
   margin: 2vmax;
 }
 
@@ -48,13 +48,10 @@
   align-items: center;
   padding: 2vmax;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
 }
-
 .aboutSectionContainer > div > div > p {
   color: rgba(0, 0, 0, 0.623);
   font: 100 1vmax "Roboto";
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .aboutSectionContainer > div > div > button {
@@ -65,8 +62,9 @@
   font: 100 1vmax "Roboto";
   color: rgba(0, 0, 0, 0.616);
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
   width: 80%;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .aboutSectionContainer2 {
@@ -88,9 +86,11 @@
 }
 
 .instagramSvgIcon {
-  color: rgb(215, 51, 230);
+  color: rgb(206, 91, 206);
 }
-
+.headingdeal{
+  color: rgb(247, 56, 22);
+}
 @media screen and (max-width: 600px) {
   .aboutSectionContainer > div {
     display: block;

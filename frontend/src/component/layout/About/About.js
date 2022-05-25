@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from '@material-ui/icons/Twitter';
+import TwitterIcon from "@material-ui/icons/Twitter";
 const About = () => {
   const visitInstagram = () => {
     window.location = "https://instagram.com/";
@@ -21,25 +21,25 @@ const About = () => {
               src="https://res.cloudinary.com/dajjva0yd/image/upload/v1653416153/products/adminn_m4gbw3.webp"
               alt="Founder"
             />
-            <Typography>Made By Yash Nigam and Pawan Pandey</Typography>
+            <h1 className="headingdeal">WELCOME TO EXPRESS-DEAL</h1>
+            <Typography>Yash and Pawan</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a Ecommerce website(EXPRESS-DEAL) made by Yash and Pawan. It is 
-              made with help of MERN Stack
+              This is a Ecommerce wesbite (EXPRESS-DEAL) made by YASH and PAWAN.
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">OUR BRANDS</Typography>
+            <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://twitter.com/"
+              href="https://www.twitter.com"
               target="blank"
             >
               <TwitterIcon className="twitterSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/" target="blank">
+            <a href="https://instagram.com" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

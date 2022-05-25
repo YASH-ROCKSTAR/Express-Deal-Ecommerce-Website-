@@ -52,7 +52,6 @@ const Products = ({ match }) => {
   let count = filteredProductsCount;
 
   useEffect(() => {
-    // let isMounted = true;
     if (error) {
       alert.error(error);
       dispatch(clearErrors());
@@ -67,8 +66,8 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- EXPRESS-DEAL" />
-          <h2 className="productsHeading">PRODUCTS</h2>
+          <MetaData title="PRODUCTS -- ECOMMERCE" />
+          <h2 className="productsHeading">Products</h2>
 
           <div className="products">
             {products &&

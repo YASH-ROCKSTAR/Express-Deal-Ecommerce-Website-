@@ -1,10 +1,10 @@
 .productsHeading {
   margin: 2vmax auto;
   width: 15vw;
-  border-bottom: 1px solid rgba(19, 18, 18, 0.493);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
   padding: 2vmax;
-  color: rgba(7, 6, 6, 0.884);
-  font: 500 1.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.678);
+  font: 500 1.5vmax "Roboto";
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 .page-item {
   background-color: rgb(255, 255, 255);
   list-style: none;
-  border: 1px solid rgba(0, 0, 0, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.178);
   padding: 1vmax 1.5vmax;
   transition: all 0.3s;
   cursor: pointer;
@@ -51,11 +51,11 @@
 }
 
 .page-item:hover {
-  background-color: rgb(68, 40, 40);
+  background-color: rgb(230, 230, 230);
 }
 
 .page-item:hover .page-link {
-  color: rgb(53, 33, 33);
+  color: rgb(0, 0, 0);
 }
 
 .pageItemActive {
@@ -70,7 +70,7 @@
   width: 10vmax;
   position: absolute;
   top: 10vmax;
-  left: 2vmax;
+  left: 4vmax;
 }
 
 .categoryBox {
@@ -86,7 +86,7 @@
   transition: all 0.5s;
 }
 .category-link:hover {
-  color: rgb(245, 49, 14);
+  color: tomato;
 }
 
 .filterBox > fieldset {

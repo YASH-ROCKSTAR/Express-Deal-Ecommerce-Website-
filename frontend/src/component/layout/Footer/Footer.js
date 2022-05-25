@@ -17,14 +17,14 @@ const Footer = () => {
         <h1>EXPRESS-DEAL</h1>
         <p>Our first priority is Quality</p>
 
-        <p>Copyrights 2022 &copy; Yash&Pawan</p>
+        <p>Copyrights 2022 &copy; Yash and Pawan</p>
       </div>
 
       <div className="rightFooter">
-        <h4>Follow Us on : </h4>
-        <a href="http://instagram.com/">Instagram</a>
-        <a href="http://youtube.com/">Youtube</a>
-        <a href="http://facebook.com/">Facebook</a>
+        <h4>Follow Us On:</h4>
+        <a href="http://instagram.com">Instagram</a>
+        <a href="http://youtube.com">Youtube</a>
+        <a href="http://facebook.com">Facebook</a>
       </div>
     </footer>
   );

@@ -1,6 +1,5 @@
-
 .banner {
-  background-image: url("../../images/logo.jpg");
+  background-image: url("../../images/cover1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,12 +14,13 @@
 
 .banner > h1 {
   margin: 5vmax;
-
-  font: 600 2.5vmax "Roboto";
+  font: 600 3vmax "Roboto";
+  font-style: italic;
 }
 
 .banner > p {
-  font: 400 2vmax "Lucida Sans";
+  font: 300 2vmax "Lucida Sans";
+  font-style: italic;
 }
 
 .banner > a > button {
@@ -47,7 +47,7 @@
   position: absolute;
   top: 0%;
   left: 0;
-  clip-path: polygon(100% 70%, 0 100%, 100% 100%);
+  clip-path: polygon(100% 71%, 0 100%, 100% 100%);
   max-width: 100%;
 }
 
@@ -69,20 +69,17 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
-  
 }
 
 .productCard {
   width: 14vmax;
-  border-radius: 10px 10px 5px 5px;
   display: flex;
   flex-direction: column;
   text-decoration: none;
   color: rgb(48, 48, 48);
-  margin: 2.5vmax;
+  margin: 2vmax;
   transition: all 0.5s;
   padding-bottom: 0.5vmax;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.425);
 }
 
 .productCard > img {
@@ -116,7 +113,7 @@
 }
 
 .productCard:hover {
-  box-shadow: 5px 5px 5px rgba(20, 17, 17, 0.678);
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
 
   transform: translateY(-1vmax);
 }
